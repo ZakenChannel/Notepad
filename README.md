@@ -1,4 +1,4 @@
-# Notepad
+# Notepade
 NotepadeApp is a command-line application for managing encrypted notes. This application allows users to save, read, delete, and search notes, as well as get statistics about their notes.
 
 ## **`Commands:`**
