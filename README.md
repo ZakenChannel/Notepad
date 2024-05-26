@@ -15,7 +15,7 @@ NotepadeApp is a command-line application for managing encrypted notes. This app
 git clone https://github.com/ZakenChannel/Notepad.git
 ```
 ```
-cd Notebook
+cd Notepade
 ```
 ```
 mvn clean install
