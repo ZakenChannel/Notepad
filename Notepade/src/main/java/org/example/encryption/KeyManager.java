@@ -1,4 +1,4 @@
-package org.example;
+package org.example.encryption;
 
 import javax.crypto.KeyGenerator;
 import java.io.*;

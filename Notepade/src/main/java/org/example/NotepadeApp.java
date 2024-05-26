@@ -1,11 +1,16 @@
 package org.example;
 
+import org.example.encryption.KeyManager;
+import org.example.encryption.NoteEncryptor;
+import org.example.service.CommandHandlers;
+import org.example.service.NoteManager;
+
 import java.io.IOException;
 import java.security.Key;
 import java.security.NoSuchAlgorithmException;
 import java.util.Scanner;
 
-public class NotebookApp {
+public class NotepadeApp {
     public static void main(String[] args) throws NoSuchAlgorithmException, IOException, ClassNotFoundException {
         Scanner scanner = new Scanner(System.in);
         Key key = KeyManager.loadOrGenerateKey();
